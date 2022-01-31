@@ -1,0 +1,29 @@
+
+.asd{
+    background-color: darkgrey;
+}
+.column {
+    
+    float: left;
+    width: 20%;
+    padding: 30px;
+    height: 200px;
+    text-align: left; 
+  }
+  
+  
+  .row::after {
+   
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button2:hover {
+    background-color: lightyellow;
+    color: white;
+  }
+  .button1:hover {
+ posit
+    background-color: #008CBA;
+    color: white;
+  }
